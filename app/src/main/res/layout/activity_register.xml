@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Acitvity.RegisterActivity"
+    android:background="#f1f1f1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/login_corner_border"
+        android:elevation="7dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="手机号:"
+                android:textSize="20sp"
+                android:layout_marginRight="10dp" />
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/register_user_code"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:textSize="20sp"
+                android:background="@null"
+                android:inputType="phone" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cacaca" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="密码:"
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"
+
+
+                />
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/register_user_password"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:textSize="20sp"
+                android:background="@null"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cacaca" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="确认密码:"
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"
+
+                />
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/register_user_password_again"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:textSize="20sp"
+                android:background="@null"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cacaca" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="昵称:"
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"
+
+                />
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/register_user_name"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:textSize="20sp"
+                android:background="@null"
+                android:inputType="text" />
+        </LinearLayout>
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cacaca" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="学号:"
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"
+
+                />
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/register_no"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:textSize="20sp"
+                android:background="@null"
+                android:inputType="number" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cacaca" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="注意：教师请填写教职工号，并在开头添加教师注册码"
+            android:gravity="center"/>
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="#cacaca" />-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_marginTop="20dp">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="专业:"-->
+                <!--android:textSize="20sp"-->
+                <!--android:layout_marginRight="10dp"-->
+
+                <!--/>-->
+
+            <!--<android.support.design.widget.TextInputEditText-->
+                <!--android:id="@+id/register_major"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:lines="1"-->
+                <!--android:textSize="20sp"-->
+                <!--android:background="@null"-->
+                <!--android:inputType="text" />-->
+        <!--</LinearLayout>-->
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="#cacaca" />-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_marginTop="20dp">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="年龄:"-->
+                <!--android:textSize="20sp"-->
+                <!--android:layout_marginRight="10dp"-->
+
+                <!--/>-->
+
+            <!--<android.support.design.widget.TextInputEditText-->
+                <!--android:id="@+id/register_age"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:lines="1"-->
+                <!--android:textSize="20sp"-->
+                <!--android:background="@null"-->
+                <!--android:inputType="number" />-->
+        <!--</LinearLayout>-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="#cacaca" />-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_marginTop="20dp">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="性别:"-->
+                <!--android:textSize="20sp"-->
+                <!--android:layout_marginRight="10dp"-->
+
+                <!--/>-->
+
+
+            <!--<RadioGroup-->
+                <!--android:id="@+id/register_group"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_marginLeft="40dp"-->
+                <!--&gt;-->
+                <!--<RadioButton-->
+                    <!--android:id="@+id/register_boy"-->
+                    <!--android:text="男"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:checked="true"-->
+                    <!--android:textSize="20sp"-->
+                    <!--/>-->
+                <!--<RadioButton-->
+                    <!--android:id="@+id/register_girl"-->
+                    <!--android:layout_marginLeft="20dp"-->
+                    <!--android:text="女"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:textSize="20sp"-->
+
+                    <!--/>-->
+            <!--</RadioGroup>-->
+        <!--</LinearLayout>-->
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/button_border_radius"
+        android:text="下 一 步"
+        android:textColor="#fff" />
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">LoginSignupTest</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_personal">PersonalActivity</string>
+    <string name="title_activity_select_stu">SelectStuActivity</string>
+    <string name="longtext">
+        药 理 学
+
+受体简介
+
+一、胆碱受体和肾上腺素受体兴奋时效应
+
+1、M效应：心脏抑制，血管扩张，腺体分泌，胃肠和支气管平滑肌收缩，缩瞳。
+
+2、N效应：骨骼肌收缩，神经节兴奋，肾上腺髓质分泌NA增加。
+
+3、α1效应：血管收缩、胃肠道平滑肌松弛、唾液分泌和肝糖原分解。
+
+4、α2效应：递质释放抑制、血小板聚集，胰岛素释放抑制，血管平滑肌收缩。 5、β1效应：心率和心肌收缩增加。
+
+6、β2效应：支气管扩张、血管舒张、内脏平滑肌松弛、肝糖原降解、肌肉颤动
+
+二、胆碱受体和肾上腺素受体的主要分布：
+
+1、M受体：心血管，胃肠，支气管，眼，腺体
+
+2、N受体：1神经节和肾上腺髓质2骨骼肌
+
+3、α1受体：皮肤，黏膜，腹腔内脏血管，瞳孔扩大肌及腺体。
+
+4、α2受体：突触前膜，皮肤，黏膜血管。
+
+5、β1受体：心脏。
+
+6、β2受体：骨骼肌血管，冠状血管。腹腔内脏血管，支气管及胃肠道平滑肌（主要的）。
+
+药效学
+
+药物效应动力学(药效学)：是研究药物对机体的作用及作用机制的生物资源科学。
+
+一、药物的不良反应：（概念会考）
+
+1、副作用：在治疗剂量时出现的与治疗无关的不适反应，可以预知但是难以避免。
+
+2、毒性反应：药物剂量过大或用药时间过长而引起的不良反应，可以预知避免。的延伸，急性慢性，致畸致癌致突变）
+
+3、后遗效应：停药后机体血药浓度虽然已降至最低有效浓度以下，但仍残存的药理效应。
+
+4、停药反应：突然停药后原有疾病的加剧现象，又称反跳反应。
+
+5、变态反应：机体受药物刺激发生异常的免疫反应，而引起生理功能障碍或组织损伤。
+
+6、特异性反应：特异质病人对某种药物反应异常增高。
+
+二、竞争性拮抗剂与：（量效曲线会考）
+
+1、竞争性拮抗剂：降低激动药亲和力，而不改变内在活性，增加激动药剂量后量效曲线平行右移，最大效应不变。
+
+2、非竞争性拮抗剂：激动药的亲和力和内在活性均降低，增加剂量也不能恢复到无拮抗药时的Emax，即曲线右移，最大效应降低。
+
+三、治疗指数TI=半数致死量LD50/半数有效量ED50. 用它估计药物的安全性，此数值越大越安全。
+
+药动学
+
+药物代谢动力学(药动学)： 研究机体对药物的处置，即药物在体内的吸收、分布、代谢、排泄过程的动态变化。
+
+一、生物利用度：是表示药物活性成分到达体内循环的程度和速度的一种量度，它用来评价药物制剂质量、保证药品安全有效的重要参数。经任何给药途径给予一定剂量的药物后 到达全身血循环内药物的百分率
+
+二、药动学参数：
+
+1、一级消除动力学特点：消除速率与血浆中药物的浓度成正比。血浆半衰期为定值t=0.693/k，与血药浓度无关。每隔一个t给药一次，经过大约4-5个t血药浓度稳定，基本消除。是药物的主要消除方式。
+    </string>
+</resources>
